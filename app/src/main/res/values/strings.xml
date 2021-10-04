@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="layout1.1">Open...</string>
+    <string name="layout1.2">Ctrl-O</string>
+    <string name="layout2.1">Save...</string>
+    <string name="layout2.2">Ctrl-S</string>
+    <string name="layout3.1">Save As</string>
+    <string name="layout3.2">Ctrl-Shift-S</string>
+    <string name="layout4">X Import...</string>
+    <string name="layout5.1">X Export...</string>
+    <string name="layout5.2">Ctrl-E</string>
+    <string name="layout6">Quit</string>
+</resources>

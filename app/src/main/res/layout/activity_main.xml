@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".MainActivity"
+    android:stretchColumns="1">
+
+    <TableRow>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout1.1"
+            android:padding="3dp" />
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout1.2"
+            android:gravity="right"
+            android:padding="3dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout2.1"
+            android:padding="3dp" />
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout2.2"
+            android:gravity="right"
+            android:padding="3dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout3.1"
+            android:padding="3dp"/>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout3.2"
+            android:gravity="right"
+            android:padding="3dp"/>
+    </TableRow>
+
+    <View android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"/>
+
+    <TableRow android:layout_height="60dp">
+
+        <TextView
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:text="@string/layout4"
+            android:padding="3dp"/>
+    </TableRow>
+
+    <TableRow android:layout_height="60dp">
+        <TextView
+            android:textColor="@color/white"
+            android:layout_height="match_parent"
+            android:text="@string/layout5.1"/>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout5.2"
+            android:gravity="right"
+            android:padding="3dp"/>
+    </TableRow>
+
+    <View android:layout_height="2px"
+        android:layout_width="match_parent"
+        android:background="#FFFFFF"/>
+    <TableRow>
+        <TextView
+            android:textColor="@color/white"
+            android:text="@string/layout6"
+            android:padding="3dp"/>
+    </TableRow>
+
+</TableLayout>
